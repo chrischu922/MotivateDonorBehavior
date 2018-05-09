@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Doughnuts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <!-- <link rel="icon" type="image/png" href="#"/> -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="full-width">
+    <nav class="full-width">
+      <a href="index.html"><img class="profile-img" src="img/raymond.png"></a>
+    </nav>
+    <div class="body-wrap container">
+      <h2>Admin</h2>
+        <div class="admin-btn">
+          <h3>Type 1</h3>
+          <div class="clear-float"></div>
+          <a href="type1.html">
+              <button class="ui button green">TYPE 1</button>
+          </a>   
+        </div>
+        <div class="admin-btn">
+          <h3>Type 2</h3>
+          <div class="clear-float"></div>
+          <a href="type2.html">
+              <button class="ui button yellow">TYPE 2</button>
+          </a>   
+        </div>
+        <div class="admin-btn">
+          <h3>Type 3</h3>
+          <div class="clear-float"></div>
+          <a href="type3.html">
+              <button class="ui button brown">TYPE 3</button>
+          </a>   
+        </div>
+        <div class="admin-btn">
+          <h3>Type 4</h3>
+          <div class="clear-float"></div>
+          <a href="type4.html">
+              <button class="ui button blue">TYPE 4</button>
+          </a>   
+        </div>
+      
+
+          
+    </div>
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/semantic.min.js"></script>
+    <script type="text/javascript">
+      var categoryContent = [
+        { category: 'South America', title: 'Brazil' },
+        { category: 'South America', title: 'Peru' },
+        { category: 'North America', title: 'Canada' },
+        { category: 'Asia', title: 'South Korea' },
+        { category: 'Asia', title: 'Japan' },
+        { category: 'Asia', title: 'China' },
+        { category: 'Europe', title: 'Denmark' },
+        { category: 'Europe', title: 'England' },
+        { category: 'Europe', title: 'France' },
+        { category: 'Europe', title: 'Germany' },
+        { category: 'Africa', title: 'Ethiopia' },
+        { category: 'Africa', title: 'Nigeria' },
+        { category: 'Africa', title: 'Zimbabwe' },
+      ];
+
+      $('.ui.search')
+        .search({
+          type: 'category',
+          source: categoryContent
+      });
+
+      $('.ui.dropdown')
+        .dropdown()
+      ;
+          </script>
+
+</body>
+</html>

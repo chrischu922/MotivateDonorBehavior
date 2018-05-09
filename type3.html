@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Doughnuts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <!-- <link rel="icon" type="image/png" href="#"/> -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="full-width">
+    <nav class="full-width">
+      <div class="logo-doughnuts float-l"> Doughnuts 
+        <img class ="doughnut-icon" src="img/Food-Doughnut-icon.png">
+      </div>
+      <a href="index.html"><img class="profile-img" id="profile" data-html="<div class='nav-inside'><p>Personal</p><p>Logout</p></div>
+                " src="img/raymond.png"></a>
+    </nav>
+    <div class="clear-float"></div>
+    <div class="container body-wrap">
+        <div class="ui floating labeled icon dropdown button inline" onclick="myFunction()">
+          <i class="filter icon"></i>
+          <span class="text">Filter</span>
+        </div>
+        <div class="ui category search inline " onclick="myFunction2()">
+          <div class="ui icon input">
+            <input class="prompt" type="text" placeholder="Search...">
+            <i class="search icon"></i>
+          </div>
+          <div class="results">
+          </div>
+        </div>
+        <div class="clear-float"></div>
+        <div class="ui divided items events-wrap">
+          <div class="item each-event">
+              <div class="image">
+                <img src="img/thanksgiving.jpeg">
+              </div>
+              <div class="content">
+                <div class="ui grid">
+                  <div class="eleven wide column">
+                    <a class="header boldH">Help Buy Meals for Children in Sudan</a>
+                    <div class="space"><p></p></div>
+                    <div class="meta">    
+                      <span class="cinema">Food Bank Sudan is organizing a fundraiser to earn money to buy meals for impoverished children in the Sudanese area. Since the Sudanese Civil War, countless families and children have been displaced, many of them now living in poverty. Every summer, Food Bank Sudan goes to various villages in Sudan and conducts feedings, hoping to provide meals and food, particularly for children living in the area.</span>
+                    </div>
+                    <div class="description">
+                      <p></p>
+                    </div>
+                    <div class="space"><p></p></div>
+                    <div class="extra">
+                      <div class="ui label">Food</div>
+                      <div class="ui label">Children</div>
+                      <div class="ui label"><i class="globe icon"></i> Donation</div>
+                    </div>
+                    <div class="space"><p></p></div>
+                    <!--
+                    <div class="full-width">
+                      <div class="full-width goal-name-wrap">
+                        <p class="goal-name name0">START</p>
+                        <p class="goal-name name1">GOAL1</p>
+                        <p class="goal-name name1">GOAL2</p>
+                        <p class="goal-name name2">DONE</p>
+                      </div>
+                      <div class="process-bar"></div>
+                      <div class="full-width goal-wrap">
+                        <div class="each-goal goal0">
+                        </div>
+                        <div class="each-goal goal1">
+                        </div>
+                        <div class="each-goal goal2">
+                        </div>
+                        <div class="each-goal goal3">
+                        </div>
+                      </div>
+                      <div class="full-width goal-name-wrap center">
+                        <p class="goal-name name0">$0</p>
+                        <p class="goal-name name0 left-goal1">$300</p>
+                        <p class="goal-name name1 left-goal2">$500</p>
+                        <p class="goal-name name2 right">$1000</p>
+                      </div>
+                    </div>
+                    <div class="ui small progress success" id="progress1">
+                      <div class="bar"></div>
+                      <div class="label">Tiny</div>
+                    </div>
+                  -->
+                  </div>
+                  <div class="five wide column">
+                    <a href="content-nf.html">
+                      <div class="ui right floated primary huge button next-button">
+                          More Details
+                          <i class="right chevron icon"></i>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="item each-event">
+              <div class="image">
+                <img src="img/school.jpg">
+              </div>
+              <div class="content">
+                <div class="ui grid">
+                  <div class="eleven wide column">
+                    <a class="header boldH">Help a School for a North Kenyan Village</a>
+                    <div class="space"><p></p></div>
+                    <div class="meta">
+                      <span class="cinema">Education is one of the most effective ways to break the cycle of poverty. Northern Kenya has always been one of the more poor and less educated parts of the country, standing in stark contrast to the more developed parts of the country in the south. As a result, World Vision has partnered with local teachers in Kenya to attempt to help with educational resources for young children in the north Kenyan region, including textbooks, school furnitures etc. Those equipments will be provided to students from a variety of villages in the surrounding area.</span>
+                    </div>
+                    <div class="description">
+                      <p></p>
+                    </div>
+                    <div class="space"><p></p></div>
+                    <div class="extra">
+                      <div class="ui label">Education</div>
+                      <div class="ui label">Children</div>
+                      <div class="ui label"><i class="globe icon"></i> Donation</div>
+                    </div>
+                    <div class="space"><p></p></div>
+                    <!--
+                    <div class="full-width">
+                      <div class="full-width goal-name-wrap">
+                        <p class="goal-name name0">START</p>
+                        <p class="goal-name name1">GOAL1</p>
+                        <p class="goal-name name1">GOAL2</p>
+                        <p class="goal-name name2">DONE</p>
+                      </div>
+                      <div class="process-bar"></div>
+                      <div class="full-width goal-wrap">
+                        <div class="each-goal goal0">
+                        </div>
+                        <div class="each-goal goal1">
+                        </div>
+                        <div class="each-goal goal2">
+                        </div>
+                        <div class="each-goal goal3">
+                        </div>
+                      </div>
+                      <div class="full-width goal-name-wrap center">
+                        <p class="goal-name name0">$0</p>
+                        <p class="goal-name name0 left-goal1">$400</p>
+                        <p class="goal-name name1 left-goal2">$800</p>
+                        <p class="goal-name name2 right">$1200</p>
+                      </div>
+                    </div>
+                    <div class="ui small progress error" id="progress2">
+                      <div class="bar"></div>
+                      <div class="label">Tiny</div>
+                    </div>
+                  -->
+                  </div>
+                  <div class="five wide column">
+                    <a href="content-nn2.html">
+                      <div class="ui right floated primary huge button next-button">
+                          More Details
+                          <i class="right chevron icon"></i>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="item each-event">
+              <div class="image">
+                <img src="img/earthquake.jpg">
+              </div>
+              <div class="content">
+                <div class="ui grid">
+                  <div class="eleven wide column">
+                    <a class="header boldH">Nepal - Earthquake Relief and Recovery Fund</a>
+                    <div class="space"><p></p></div>
+                    <div class="meta">
+                      <span class="cinema">On April 25, 2015, a 7.8M earthquake struck Nepal near the capital of Kathmandu. On May 12, 2015 a second, 7.3M earthquake struck. Aid groups and local nonprofits are mobilizing to provide support and emergency supplies to the people impacted by both earthquakes. </span>
+                    </div>
+                    <div class="description">
+                      <p></p>
+                    </div>
+                    <div class="space"><p></p></div>
+                    <div class="extra">
+                      <div class="ui label">Disaster</div>
+                      <div class="ui label"><i class="globe icon"></i> Donation</div>
+                    </div>
+                    <div class="space"><p></p></div>
+                    <!--
+                    <div class="full-width">
+                      <div class="full-width goal-name-wrap">
+                        <p class="goal-name name0">START</p>
+                        <p class="goal-name name1">GOAL1</p>
+                        <p class="goal-name name1">GOAL2</p>
+                        <p class="goal-name name1">GOAL3</p>
+                        <p class="goal-name name2">DONE</p>
+                      </div>
+                      <div class="process-bar"></div>
+                      <div class="full-width goal-wrap">
+                        <div class="each-goal goal0">
+                        </div>
+                        <div class="each-goal goal1">
+                        </div>
+                        <div class="each-goal goal2">
+                        </div>
+                        <div class="each-goal goal2">
+                        </div>
+                        <div class="each-goal goal3">
+                        </div>
+                      </div>
+                      <div class="full-width goal-name-wrap center">
+                        <p class="goal-name name0">$0</p>
+                        <p class="goal-name name0 left-goal1">$1000</p>
+                        <p class="goal-name name1 left-goal2">$2000</p>
+                        <p class="goal-name name2 left-goal2">$3000</p>
+                        <p class="goal-name name2 right">$4000</p>
+                      </div>
+                    </div>
+                    <div class="ui small progress success" id="progress3">
+                      <div class="bar"></div>
+                      <div class="label">Tiny</div>
+                    </div>
+                  -->
+                  </div>
+                  <div class="five wide column">
+                    <a href="content-sn3.html">
+                      <div class="ui right floated primary huge button next-button">
+                          More Details
+                          <i class="right chevron icon"></i>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="item each-event">
+              <div class="image">
+                <img src="img/orphanage.jpg">
+              </div>
+              <div class="content">
+                <div class="ui grid">
+                  <div class="eleven wide column">
+                    <a class="header boldH">Build a vegetable patch and small farm in an orphanage in Uganda</a>
+                    <div class="space"><p></p></div>
+                    <div class="meta">
+                      <span class="cinema">In Mpigi, Uganda, thousands of children are living without one or both parents, putting them at risk of dropping out, falling ill and being malnourished. In order to provide a safe place for the children, GlobalGiving has recently purchased two acres of land and built an orphanage. </span>
+                    </div>
+                    <div class="description">
+                      <p></p>
+                    </div>
+                    <div class="space"><p></p></div>
+                    <div class="extra">
+                      <div class="ui label">Orphanage</div>
+                      <div class="ui label">Children</div>
+                      <div class="ui label"><i class="globe icon"></i> Donation</div>
+                    </div>
+                    <div class="space"><p></p></div>
+                    <!--
+                    <div class="full-width">
+                      <div class="full-width goal-name-wrap">
+                        <p class="goal-name name0">START</p>
+                        <p class="goal-name name1">GOAL1</p>
+                        <p class="goal-name name1">GOAL2</p>
+                        <p class="goal-name name2">DONE</p>
+                      </div>
+                      <div class="process-bar"></div>
+                      <div class="full-width goal-wrap">
+                        <div class="each-goal goal0">
+                        </div>
+                        <div class="each-goal goal1">
+                        </div>
+                        <div class="each-goal goal2">
+                        </div>
+                        <div class="each-goal goal3">
+                        </div>
+                      </div>
+                      <div class="full-width goal-name-wrap center">
+                        <p class="goal-name name0">$0</p>
+                        <p class="goal-name name0 left-goal1">$800</p>
+                        <p class="goal-name name1 left-goal2">$1000</p>
+                        <p class="goal-name name2 right">$1500</p>
+                      </div>
+                    </div>
+                    <div class="ui small progress warning" id="progress4">
+                      <div class="bar"></div>
+                      <div class="label">Tiny</div>
+                    </div> -->
+                  </div>
+                  <div class="five wide column">
+                    <a href="content4.html">
+                      <div class="ui right floated primary huge button next-button">
+                          More Details
+                          <i class="right chevron icon"></i>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+          
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/semantic.min.js"></script>
+    <script type="text/javascript">
+      var categoryContent = [
+        { category: 'South America', title: 'Brazil' },
+        { category: 'South America', title: 'Peru' },
+        { category: 'North America', title: 'Canada' },
+        { category: 'Asia', title: 'South Korea' },
+        { category: 'Asia', title: 'Japan' },
+        { category: 'Asia', title: 'China' },
+        { category: 'Europe', title: 'Denmark' },
+        { category: 'Europe', title: 'England' },
+        { category: 'Europe', title: 'France' },
+        { category: 'Europe', title: 'Germany' },
+        { category: 'Africa', title: 'Ethiopia' },
+        { category: 'Africa', title: 'Nigeria' },
+        { category: 'Africa', title: 'Zimbabwe' },
+      ];
+
+      function myFunction() {
+        alert("Sorry! This feature hasn`t been completed");
+      }
+      function myFunction2() {
+        alert("Sorry! This feature hasn`t been completed");
+      }
+
+      $('.ui.search')
+        .search({
+          type: 'category',
+          source: categoryContent
+      });
+
+      $('.ui.dropdown')
+        .dropdown()
+      ;
+
+      $('#profile')
+      .popup({
+        position : 'bottom center',
+        hoverable: true
+      })
+    ;
+          </script>
+
+
+</body>
+</html>
